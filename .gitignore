@@ -12,6 +12,19 @@ vendor/
 .idea/
 .vscode/
 *.log
-wordpress/wp-config.php
+*.log.*
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+# Локальные дампы и базы; SQL-миграции в каталоге migrations можно хранить в Git.
+*.sql
+!**/migrations/**/*.sql
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+wp-config.php
 wordpress/wp-content/uploads/
 backups/
